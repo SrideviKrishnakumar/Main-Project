@@ -1,0 +1,687 @@
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------------          ----------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------------  Mobile  ----------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------------          ----------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.mainHomePage{
+    background-color: white;
+    margin-top: 35px;
+    margin-bottom: -450px;
+}
+
+.headerRegistered{
+    margin-top: 63px;
+    width: 375px;
+    height: 740px;
+    margin-bottom: 154px;
+    background-image: url(../../public/images/phone_header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    // #mobileImage{
+    //     background-image: url("/public/images/phone_header.jpg");
+    //     background-size: cover;
+    //     background-repeat: no-repeat;
+    // }
+    // #tabletImage{
+    //     display: none;
+    // }
+    // #webImage{
+    //     display: none;
+    // }
+
+    .positionRl{
+        position: relative;
+        text-align: center;
+        margin-top: 63px;
+        margin-left: 30px;
+        margin-right: 30px;
+
+        h4{
+            color: white;
+            padding: 1rem 0.5rem 1.2rem;
+            font-family: "Roboto", sans-serif;
+        }
+        p{
+            padding: -0.5rem 3rem 0.2rem;
+            color: white;
+            font-family: "Roboto", sans-serif;            
+        }
+        .headerLinks{
+            display: flex;
+            font-family: "Roboto", sans-serif;
+            margin-top: 180px;
+            background-color: #333333;
+            padding: 20px;
+            opacity: 75%;
+            border-radius: 25px 25px 0 0;
+            text-align: center;
+            
+            a:first-child{
+                border-right: 2px solid #009fe3;
+                text-align: center;
+                color: white;
+                padding: 0px 50px 0px 35px;
+            }
+            a:first-child:hover{
+                cursor: pointer;
+                text-decoration: underline;
+            }
+            
+            a:last-child{
+                text-align: center;
+                color: white;
+                padding: 0px 0px 0px 50px;
+            }
+            a:last-child:hover{
+                cursor: pointer;
+                text-decoration: underline;
+            }
+                
+        }
+
+        .nearMeFather{
+            //display: none;
+            .nearMeLink{
+                background-color: white;
+                border-radius: 25px;
+                padding: 10px;
+                margin-top: 10px;
+        
+                form{
+                    display: flex;
+                    flex-direction: column;
+                }
+                p{
+                    text-align: center;
+                    font-family: "Roboto", sans-serif;
+                    color: black;
+                }
+            }
+                
+        }
+
+        .destinationFather{
+                display: none;
+
+            .destinationLink{
+                background-color: white;
+                border-radius: 25px;
+                padding: 5px;
+                margin-top: 10px;
+        
+                h5{
+                    text-align: left;
+                    padding: 5px 0 0 5px;
+                    font-family: "Roboto", sans-serif;
+                }
+                form{
+                    display: flex;
+                    flex-direction: column;
+                }
+                input#searchImput{
+                    width: 90%;
+                    background-color: white;
+                    border: 2px solid #333333;
+                    border-radius: 10px;
+                    //opacity: 20%;
+                    padding: 3px;
+                }
+                p{
+                    color: black;
+                    font-family: "Roboto", sans-serif;
+                }
+            }
+        }
+        .btnStyle{
+            background-color: #009fe3;
+            padding: 20px 106px 20px 106px;
+            border-radius: 10px;
+            margin-top: 15px;
+            color: white;
+            font-family: "Roboto", sans-serif;
+            font-size: large;
+            border: none;
+        }
+    }
+}
+
+
+.header{
+    margin-top: 63px;
+    width: 375px;
+    height: 740px;
+    margin-bottom: 154px;
+    background-image: url(../../public/images/phone_header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    // #mobileImage{
+    //     position: absolute;
+    //     width: 375px;
+    //     z-index: -1;
+
+    // }
+    // #tabletImage{
+    //     display: none;
+    // }
+    // #webImage{
+    //     display: none;
+    // }
+    
+
+ .positionRl{
+     position: relative;
+     text-align: center;
+     margin-top: 63px;
+     margin-left: 30px;
+     margin-right: 30px;
+     
+    h4{
+         color: white;
+         padding: 1rem 0.5rem 1.2rem;
+         font-family: "Roboto", sans-serif;
+        }
+    p{
+        padding: -0.5rem 3rem 0.2rem;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        
+    }
+    .headerLinks{
+        display: flex;
+        font-family: "Roboto", sans-serif;
+        margin-top: 180px;
+        background-color: #333333;
+        padding: 20px;
+        opacity: 75%;
+        border-radius: 25px 25px 0 0;
+        text-align: center;
+        
+        a:first-child{
+            border-right: 2px solid #009fe3;
+            text-align: center;
+            color: white;
+            padding: 0px 50px 0px 50px;
+        }
+        
+        a:last-child{
+            text-align: center;
+            color: white;
+            padding: 0px 0px 0px 50px;
+        }
+            
+    }
+    .formStyle{
+        background-color: white;
+        border-radius: 25px;
+        padding: 10px;
+        margin-top: 10px;
+
+        h5{
+            text-align: left;
+            padding-top: 10px;
+            font-family: "Roboto", sans-serif;
+        }
+            form{
+                display: flex;
+                flex-direction: column;
+            }
+            #searchImput{
+                background-color: #333333;
+                border-radius: 10px;
+                padding: 5px;
+                margin-bottom: 25px;
+                opacity: 20%;
+            }
+            input:first-child::placeholder{
+                color: rgba(0, 0, 0);
+                opacity: 100%;
+            }
+            
+    }
+
+    .btnStyle{
+        background-color: #009fe3;
+        padding: 20px 106px 20px 106px;
+        border-radius: 10px;
+        margin-top: 15px;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-size: large;
+        border: none;
+    }
+}
+}
+
+#carouselExampleDark{
+    //margin-top: 155px;
+    width: 375px;
+    height: 755px;
+    background-color: white;
+    margin-top: -35px;
+    margin-left: -15px;
+
+    ol{
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    li{
+        height: 30px;
+        width: 30px;
+        border-radius: 40%;
+        background-color: #009fe3;
+    }
+
+    img{
+        margin-bottom: 250px;
+        margin-top: 50px;
+        width: 225px;
+        height: 225px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2{
+        text-align: center;
+        color: #009fe3;
+        font-family: "Roboto", sans-serif;
+    }
+    h3{
+        text-align: center;
+        color: #009fe3;
+        font-family: "Roboto", sans-serif;
+        margin: 50px 0 20px 0;
+    }
+
+    h5{
+        text-align: center;
+        color: #009fe3;
+        font-family: "Roboto", sans-serif;
+    }
+
+    p{
+        text-align: center;
+        color: #009fe3;
+        font-family: "Roboto", sans-serif;
+    }
+
+    span{
+        text-align: center;
+        color: #009fe3;
+        font-family: "Roboto", sans-serif;
+    }
+
+    
+}
+
+.noCarrosel{
+    display: none;
+}
+.usersSay{
+    width: 375px;
+    height: 405px;
+    font-family: "Roboto", sans-serif;
+    // background-image: url(../../public/images/driver.jpg);
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // opacity: 25%;
+
+
+     img{
+         height: 405px;
+         position: absolute;
+         //z-index: -1;
+         opacity: 25%;
+     }
+
+    .positionRel{
+        //position: relative;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+
+    h3{
+        text-align: center;
+        color: black;
+        padding: 100px 0 25px 0;
+    }
+
+    p{
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 30px;
+    }
+
+    span{
+        margin-top: 15px;
+        text-align: center;
+        padding: 0 25px 0 25px;
+        background-color: #009fe3;
+        border: 1px solid #009fe3;
+        border-radius: 100%;
+    }
+}
+.yourParkingSpace{
+
+     #phone{
+         display: none;
+     }
+
+    .rentoutDescription{
+        height: 270px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        padding-top: 45px;
+    
+        h3{
+            color: #009fe3;
+        }
+    
+        p{
+            color: black;
+        }
+    }
+}
+.featuresBugs{
+        
+
+
+    .moreFeatures{
+        background-color: #009fe3;
+        color: white;
+        text-align: center;
+        width: 375px;
+        padding: 66px 10px 10px 10px;
+
+    
+        h3{
+            padding-bottom: 25px;
+        }
+    
+        p{
+            a{
+                text-decoration: underline;
+                color: white;
+            }
+        }
+    }
+
+    .bug{
+        background-color: #009fe3;
+        color: white;
+        text-align: center;
+        width: 375px;
+        padding: 66px 10px 66px 10px;
+    
+        h3{
+            padding-bottom: 25px;
+        }
+    
+    }
+}
+
+
+
+footer{
+    margin-top: 75px;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------------          ----------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------------  Tablet  ----------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------------          ----------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 768px){
+    .header{
+        width: 800px;
+        height: 500px;
+        background-image: url(../../public/images/tablet_header.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .positionRl{
+            width: 400px;
+            background-color: rgba(0, 0, 0, 0.11);
+            .headerLinks{
+                margin-top: 0;
+                a:first-child{
+                    padding: 0px 50px 0px 85px;
+                }
+            }
+        }
+
+
+    }
+
+
+    .headerRegistered{
+        width: 800px;
+        height: 500px;
+        background-image: url(../../public/images/tablet_header.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+        .positionRl{
+            width: 400px;
+            background-color: rgba(0, 0, 0, 0.11);
+            .headerLinks{
+                margin-top: 0;
+                a:first-child{
+                    padding: 0px 50px 0px 85px;
+                }
+            }
+        }
+    }
+
+
+    #carouselExampleDark{
+        display: none;
+    }
+
+    .noCarrosel{
+        display: inline;
+        h3{
+            text-align: center;
+            font-family: "Roboto", sans-serif;
+            color: #009fe3;
+            padding-top: 30px;
+        }
+    }
+
+    .slides{
+        display: flex;
+        justify-content: space-evenly;
+        height: 546px;
+
+        .slide{
+            text-align: center;
+            font-family: "Roboto", sans-serif;
+            color: #009fe3;
+
+            img{
+                width: 150px;
+
+                margin: 100px 0 65px 0;
+            }
+            h5, p{
+                max-width: 185px;
+            }
+        }
+    }
+
+    .usersSay{
+        position: relative;
+        width: 770px;
+        height: 405px;
+        background-image: url(../../public/images/driver.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        #mobileImage{
+            display: none;
+        }
+
+
+        .positionRel{
+            height: 104%;
+            width: 400px;
+            position: absolute;
+            right: 0;
+            top: -65px;
+            text-align: left;
+
+            background-color: rgba(255, 255, 255, 0.857);
+        }
+    
+        h3{
+            text-align: left;
+            color: black;
+            padding: 100px 0 25px 0;
+            margin-left: 10px;
+        }
+    
+        p{
+            text-align: left;
+            margin-bottom: 200px;
+            margin-top: 30px;
+            margin-left: 10px;
+        }
+    
+        span{
+            margin-top: 15px;
+            text-align: left;
+            padding: 0 25px 0 25px;
+            background-color: #009fe3;
+            border: 1px solid #009fe3;
+            border-radius: 100%;
+            margin-left: 10px;
+        }
+    }
+
+    .yourParkingSpace{
+        display: flex;
+        justify-content: space-evenly;
+        
+        #phone{
+            display: inline;
+            height: 350px;
+        }
+
+        .rentoutDescription{
+            padding: 45px 0 0 50px;
+            width: 360px;
+        }
+    }
+
+    .featuresBugs{
+        position: relative;
+        width: 770px;
+        height: 375px;
+        background-image: url(../../public/images/parking.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+        .moreFeatures{
+
+            height: 375px;
+            width: 325px;
+        }
+
+        .bug{
+            height: 375px;
+            width: 325px;
+            
+        }
+    }
+}
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------------          ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------  Dessktop  ----------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------------          ----------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 940px){
+
+    .header{
+        height: 763px;
+        width: 100%;
+        background-image: url(../../public/images/web_header.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        // #webImage{
+            //     display: inline;
+            //     position: absolute;
+            //     width: 100%;
+            //     height: auto;
+            //     z-index: -2;
+            
+            // }
+            
+            
+        }
+        
+        .headerRegistered{
+        height: 763px;
+        width: 100%;
+        background-image: url(../../public/images/web_header.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+        // #webImage{
+        //     display: inline;
+        //     position: absolute;
+        //     width: 100%;
+        //     height: auto;
+        //     z-index: -2;
+
+        // }
+       
+    }
+
+    .usersSay{
+        height: 458px;
+        width: 100%;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .featuresBugs{
+
+        height: 586px;
+
+        img{
+            height: 586px;
+        }
+
+        .moreFeatures{
+            height: 586px;
+            width: 50%;
+            padding-top: 150px;
+        }
+        
+        .bug{
+            height: 586px;
+            width: 50%;
+            padding-top: 150px;
+        }
+    }
+}

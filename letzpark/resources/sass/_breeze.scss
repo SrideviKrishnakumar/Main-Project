@@ -1,0 +1,108 @@
+.mainlogin, .mainregister, .mainreset, .mainforget, .mainemail {
+    background-color: #c2c2c2;
+    padding: 2.1875rem 1rem 4.6875rem;
+    strong{
+        color: $primary;
+    }
+    h3{
+        padding-left: 1rem;
+    }
+}
+section {
+    background-color: #ffffff;
+    border-radius: 1.25rem;
+    padding: 1.5rem 1rem 1rem;
+}
+
+//utilizing condensed font for clarification
+span, #forgotPass, .information{
+    font-family: $condensed;
+}
+
+#loginQuestion {
+    font-family: $condensed;
+}
+
+//Style for buttons
+#btn, #btnforgot, #btnreset {
+    border-radius: 1rem;
+    width: 100%;
+    height: 3.75rem;
+    background-color: #009fe3;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+#btninverse {
+    border-radius: 1rem;
+    width: 100%;
+    height: 3.75rem;
+    background-color: #ffffff;
+    border: 2px solid $primary;
+    font-weight: bold;
+    color: $primary;
+}
+
+//Flex options to override bootstrap
+#formOptions {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+//Fixing problems with footer
+#registerSection {
+    margin-bottom: 10rem;
+}
+
+//button for reset
+.extra{
+    width: 100%;
+    padding: 0rem 1rem;
+}
+.bottom{
+    padding-bottom: 1.5rem;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------------          ----------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------------  Tablet  ----------------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------------          ----------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 768px) {
+    #formOptions {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        text-align: left;
+    }
+    #btn {
+        width: 100%;
+    }
+    #btnforgot, #btnreset, #btninverse{
+        width: 60%;
+    }
+    .extra{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem 1rem;
+    }
+    section {
+        padding: 24px 15px 75px;
+    }
+    #last {
+        text-align: left;
+    }
+    #loginSection, #verifySection{
+        max-width: 37.75rem;
+    }
+    #recoverPassword{
+        max-width: 37.75rem;
+        margin: 0 auto;
+    }
+    #confirmPassword{
+        max-width: 37.75rem;
+        padding-bottom: 2.3rem;
+    }
+}

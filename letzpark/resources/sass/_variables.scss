@@ -1,0 +1,44 @@
+/* THIS ARE THE VARIABLES USED FOR MOST OF THE PROJECT FOR EASY ACCESS*/
+
+// Body (base background)
+$body-bg: #ffffff;
+
+// Typography
+$font: "Roboto", sans-serif; //Original font
+$condensed: "Roboto Condensed", sans-serif; //used for legal text or clarification
+$font-size: 1rem; //Default size
+$line-height-base: 1.6; //Default line height based on web design principles
+
+//400 or Normal weight is used all the time
+// 200 or light is used for clarifications
+// 700 or bold is used for highlights
+//if you have to highlight something in a light text, use medium (500) weight
+
+@import "node_modules/bootstrap/scss/bootstrap";
+//Colors Replacing the bootstrap base
+$theme-colors: (
+    "primary": #009fe3,
+    "secondary": #333333,
+    "success": #009fe3,
+    "info": #4e4e4e,
+    "warning": #e30613,
+    "danger": #e30613,
+    "light": #ffffff,
+    "dark": #333333
+);
+$light-grey: #cccccc;
+$primary:#009fe3;
+$dark: #333333;
+$info:#4e4e4e;
+
+// Colors coming from Breeze
+$blue: #009fe3;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e30613;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #009fe3;

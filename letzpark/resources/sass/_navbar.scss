@@ -1,0 +1,41 @@
+#isologotype {
+    display: none;
+}
+#isologo {
+    width: 35px;
+}
+#logotype {
+    width: 130px;
+}
+@media (min-width: 768px) {
+    .navbar {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+#logoutbtn {
+    padding-top: 0.5rem;
+}
+@media (min-width: 576px) {
+    #isologo {
+        display: none;
+    }
+    #isologotype {
+        display: initial;
+        width: 150px;
+        height: 2.5rem;
+    }
+    #logotype {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    #register {
+        border: solid #009fe3 1px;
+        border-radius: 50%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
